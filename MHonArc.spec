@@ -13,7 +13,6 @@ Source:		http://www.mhonarc.org/release/MHonArc/tar/%{name}-%{version}.tar.bz2
 Patch0:         MHonArc-2.6.15-fix-perl.patch 
 Requires:	perl >= 0:5.601
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}%{version}
 
 %description
 MHonArc provides HTML mail archiving with index, mail thread linking, etc; plus
