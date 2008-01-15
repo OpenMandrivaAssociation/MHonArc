@@ -1,6 +1,6 @@
 %define name MHonArc
 %define version 2.6.16
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	A Perl mail-to-HTML converter
 Name:		%name
