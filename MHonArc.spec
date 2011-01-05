@@ -1,18 +1,14 @@
-%define name MHonArc
-%define version 2.6.16
-%define release %mkrel 6
-
 Summary:	A Perl mail-to-HTML converter
-Name:		%name
-Version:	%version
-Release:	%release
+Name:		MHonArc
+Version:	2.6.16
+Release:	%mkrel 6
 License:	GPL
 Group:		Networking/WWW
 URL:		http://www.mhonarc.org/
 Source:		http://www.mhonarc.org/release/MHonArc/tar/%{name}-%{version}.tar.bz2
-Patch0:         MHonArc-2.6.15-fix-perl.patch 
+Patch0:         MHonArc-2.6.15-fix-perl.patch
 Requires:	perl >= 0:5.601
-BuildRoot:	%{_tmppath}/%{name}%{version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 MHonArc provides HTML mail archiving with index, mail thread linking, etc; plus
@@ -21,7 +17,7 @@ features.
 
 %prep
 
-%setup -q 
+%setup -q
 %patch0 -p0
 
 %build
