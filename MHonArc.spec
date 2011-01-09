@@ -1,6 +1,6 @@
 Summary:	A Perl mail-to-HTML converter
 Name:		MHonArc
-Version:	2.6.17
+Version:	2.6.18
 Release:	%mkrel 1
 License:	GPL
 Group:		Networking/WWW
