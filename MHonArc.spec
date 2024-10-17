@@ -4,7 +4,7 @@ Version:	2.6.19
 Release:	2
 License:	GPLv2
 Group:		Networking/WWW
-Url:		http://www.mhonarc.org/
+Url:		https://www.mhonarc.org/
 Source0:	http://www.mhonarc.org/release/MHonArc/tar/%{name}-%{version}.tar.gz
 Patch0:		MHonArc-2.6.15-fix-perl.patch
 BuildArch:	noarch
